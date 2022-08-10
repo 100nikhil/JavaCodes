@@ -21,6 +21,7 @@ public class B extends A{
         // is overridden now.
         A obj = new A();
         obj.method();
+        //System.out.println(obj.a); //not possible cause a is protected in A class
 
         A obj_A = new B();
         //System.out.println(obj_A.a);   //not access cause protected, you are tring to access like public
